@@ -1,3 +1,6 @@
+# Important Notice
+I'm going to switch to a python based solution. This one will exist for anyone that wants it. The python solution will be able to be found at [vim8-pack](https://github.com/mkarpoff/vim8-pack).
+
 # vim8-pack
 Some simple tools to maintain and update git based packages for vim 8. Currently it is for managing packages designed
 for vim 7 and earlier. This is because I have yet to find a package that properly conforms to the vim8 package standard.
@@ -8,7 +11,7 @@ bugs and changes that are ongoing. Feel free to open issues. I'll get to them as
 ### Recomended Way
 Requires python3.4
 ```bash
-git clone https://github.com/mkarpoff/vim8-pack.git ~/.local/src/vim8-pack
+git clone https://github.com/mkarpoff/vim8-pack-bash.git ~/.local/src/vim8-pack
 cd ~/.local/src/vim8-pack
 ./linkall.py
 ```
